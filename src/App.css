@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+html {
+  background: #000;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+h1 {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding-bottom: 16px;
+}
+.container {
+  box-sizing: border-box;
+  border-radius: 2px;
+  max-width: 396px;
+  margin: 0 auto;
+  padding: 32px 0px;
+  margin-top: 64px;
+  background: #09080e;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+input[type=text] {
+  border: none;
+  height: 64px;
+  width: 100%;
+  background: #f4f4f5;
+  box-sizing: border-box;
+  padding: 12px 18px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+input[type=checkbox] {
+  background: #000;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+  border: none;
+  height: 48px;
+  padding: 0 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+}
+.delete {
+  width: 32px;
+  height: 32px;
+  background: none;
+  align-items: center;
+  outline: none;
+}
+.delete:hover {
+  cursor: pointer;
+}
+.full-width {
+  width: 100%;
+}
+
+ul {
+  margin: 32px 0;
+  padding: 0;
+  width: 100%;
+}
+.pending {
+  border-left: 3px solid #de1920;
+}
+.done {
+  border-left: 3px solid #19b152;
+}
+li {
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #554148;
+  box-sizing: border-box;
+  width: 100%;
+  height: 72px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
